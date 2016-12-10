@@ -1,0 +1,19 @@
+body {
+  margin: 0px;
+}
+
+#iframe_wrapper, iframe#iframe_id {
+  width: 100%;
+  height: 750px;
+  position: absolute;
+  z-index: 1;
+}
+#alerts_wrapper {
+  z-index: 1000;
+  width: 100%;
+  height: 750px;
+  position: absolute;
+  background-color: #ffffff;
+  opacity: 0;
+  border-color: red;
+}
